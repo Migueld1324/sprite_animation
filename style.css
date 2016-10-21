@@ -1,0 +1,369 @@
+* {
+  margin:0px;
+  padding:0px;
+  }
+
+  .sky {
+  background-color: #68bad8;
+  position:relative;
+  width:100%;
+  height:600px;
+
+}
+
+.mountains {
+  height:200px;
+  width:100%;
+  position:absolute;
+  top:370px;
+  bottom:100px;
+  left:-15px;
+
+}
+
+.mountain-1 {
+  left:-25px;
+  width: 0;
+  height: 0;
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-bottom: 200px solid #16B168;
+  position: absolute;
+
+}
+
+.mountain-2 {
+  left:95px;
+  width: 0;
+  height: 0;
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-bottom: 200px solid #0F9857;
+  position: absolute;
+
+}
+
+.mountain-3 {
+  left:215px;
+  width: 0;
+  height: 0;
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-bottom: 200px solid #16B168;
+  position: absolute;
+
+}
+
+.mountain-4 {
+  left:335px;
+  width: 0;
+  height: 0;
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-bottom: 200px solid #0F9857;
+  position: absolute;
+
+}
+
+.mountain-5 {
+  left:455px;
+  width: 0;
+  height: 0;
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-bottom: 200px solid #16B168;
+  position: absolute;
+
+}
+
+.mountain-6 {
+  left:575px;
+  width: 0;
+  height: 0;
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-bottom: 200px solid #0F9857;;
+  position: absolute;
+
+}
+
+.mountain-7 {
+  left:695px;
+  width: 0;
+  height: 0;
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-bottom: 200px solid #16B168;
+  position: absolute;
+
+}
+
+.mountain-8 {
+  left:815px;
+  width: 0;
+  height: 0;
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-bottom: 200px solid #0F9857;;
+  position: absolute;
+
+}
+
+.mountain-9 {
+  left:935px;
+  width: 0;
+  height: 0;
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-bottom: 200px solid #16B168;
+  position: absolute;
+
+}
+
+.mountain-10 {
+  left:1055px;
+  width: 0;
+  height: 0;
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-bottom: 200px solid #0F9857;;
+  position: absolute;
+
+}
+
+.mountain-11 {
+  left:1175px;
+  width: 0;
+  height: 0;
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-bottom: 200px solid #16B168;
+  position: absolute;
+
+}
+
+.mountain-12 {
+  left:1295px;
+  width: 0;
+  height: 0;
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-bottom: 200px solid #0F9857;;
+  position: absolute;
+
+}
+
+.mountain-13 {
+  left:1160px;
+  width: 0;
+  height: 0;
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-bottom: 200px solid #16B168;
+  position: absolute;
+
+
+}
+
+.sun {
+  height:350px;
+  width:350px;
+  border-radius: 50%;
+  background-color: #F5FA35;
+  position:relative;
+  left:500px;
+  top:120px;
+  animation-name:move;
+  animation-duration: 8s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+@keyframes move {
+  0% {
+    transform:translateY(100px);
+
+  }
+
+  100% {
+    transform:translateY(-100px);
+
+  }
+}
+
+.side-background {
+  width:100%;
+  height:100px;
+  position:relative;
+  background-color: #606060;
+  top:200px;
+
+}
+
+
+.side {
+  width:100%;
+  height:100px;
+  position:absolute;
+  background-color: #606060;
+  animation-name:moveside;
+  animation-duration: 8s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes moveside {
+  0% {
+    transform:translateX(0px);
+
+  }
+
+  50% {
+      transform:translateX(150px);
+
+  }
+
+  100% {
+    transform:translateX(0px);
+  }
+}
+
+
+.tree {
+  position:absolute;
+  background-image: url("tree.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:90px;
+  height:115px;
+  top:-88px;
+  }
+
+.tree-2 {
+  position:absolute;;
+  background-image: url("tree.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:90px;
+  height:115px;
+  top:-88px;
+  left:250px;
+
+}
+
+.tree-3{
+  position:absolute;;
+  background-image: url("tree.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:90px;
+  height:115px;
+  top:-88px;
+  left:500px;
+
+}
+
+.tree-4 {
+  position:absolute;;
+  background-image: url("tree.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:90px;
+  height:115px;
+  top:-88px;
+  left:750px;
+
+}
+
+.tree-5 {
+  position:absolute;;
+  background-image: url("tree.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:90px;
+  height:115px;
+  top:-88px;
+  left:1000px;
+
+}
+
+.tree-6 {
+  position:absolute;;
+  background-image: url("tree.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:90px;
+  height:115px;
+  top:-88px;
+  left:1250px;
+
+}
+
+.flower {
+  position:absolute;;
+  background-image: url("flower.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:25px;
+  height:25px;
+  top:-23px;
+  left:150px;
+
+}
+
+.flower-2 {
+  position:absolute;;
+  background-image: url("flower.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:25px;
+  height:25px;
+  top:-23px;
+  left:650px;
+
+}
+
+.flower-3 {
+  position:absolute;;
+  background-image: url("flower.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:25px;
+  height:25px;
+  top:-23px;
+  left:1150px;
+
+}
+
+@keyframes walk {
+    0%{
+        background-position: 0px 0px;
+    }
+
+    100%{
+        background-position: -4096px 0px;
+    }
+}
+
+.little-man {
+    width: 507px;
+    height: 256px;
+    top:-220px;
+    left:300px;
+    position: fixed;
+    background-image: url("cheetah.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    animation-name: walk;
+    animation-duration: 0.8s;
+    animation-fill-mode:forwards;
+    animation-timing-function: steps(8);
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+
+}
